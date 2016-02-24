@@ -1,0 +1,9 @@
+---
+- name: Install dnsmasq server
+  hosts: dns-server
+  remote_user: kaija
+  # remote_user: user
+  sudo: yes
+
+  roles:
+    - dnsmasq

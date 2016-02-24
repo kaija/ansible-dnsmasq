@@ -1,1 +1,3 @@
-# ansible-dnsmasq
+### Test
+	ansible-playbook -i inventory site.yml
+
